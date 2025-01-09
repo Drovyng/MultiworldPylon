@@ -1,0 +1,6 @@
+This mod adds a Multiworld Pylon that allows you to create subworlds with different properties.
+When teleporting, it spends a charge, which takes some time to restore.
+
+Works in multiplayer.
+
+WARNING!!! Generated subworlds ONLY with vanilla generation.

@@ -1,0 +1,97 @@
+Items: {
+	MultiworldPylonItem: {
+		DisplayName: Multiworld Pylon
+		Tooltip:
+			'''
+			Allows you to travel between worlds, spending a charge.
+			You can teleport home with any charge.
+			After completing the game, access to secret seeds opens.
+			'''
+	}
+}
+
+UI: {
+	ChargeText: Charge:
+	SelectWorld: Select World:
+	Home: Home
+	Normal: Normal
+	Purity: Purity
+	PurityRNG: PurityRNG
+	Corruption: Corruption
+	Crimson: Crimson
+	RNG: RNG
+	Locked: LOCKED
+	LoadingText: Loading world...
+}
+
+Configs: {
+	MultiworldPylonConfig: {
+		DisplayName: Multiworld Pylon Config
+
+		GenerateDungeon: {
+			Label: Generate Dungeon
+			Tooltip: ""
+		}
+
+		Headers: {
+			PreMoonlordWorlds: Pre Moonlord Worlds
+			Stats: Stats
+			DoNot: DANGER!
+		}
+
+		GenerateJungleTemple: {
+			Label: Generate Jungle Temple
+			Tooltip: ""
+		}
+
+		GenerateHives: {
+			Label: Generate Hives
+			Tooltip: ""
+		}
+
+		GeneratePyramids: {
+			Label: Generate Pyramids
+			Tooltip: ""
+		}
+
+		GenerateAltars: {
+			Label: Generate Altars
+			Tooltip: ""
+		}
+
+		GenerateFloatingIslands: {
+			Label: Generate Floating Islands
+			Tooltip: ""
+		}
+
+		CountdownInstant: {
+			Label: Countdown Instant
+			Tooltip: ""
+		}
+
+		CountdownTimer: {
+			Label: Countdown Timer
+			Tooltip: ""
+		}
+
+		CountdownInstantEndGame: {
+			Label: Countdown Instant End Game
+			Tooltip: ""
+		}
+
+		CountdownTimerEndGame: {
+			Label: Countdown Timer End Game
+			Tooltip: ""
+		}
+
+		DN_AllowFullModdedWorldgen: {
+			Label: Allow Full Modded Worldgen (Pre Moonlord)
+			Tooltip: This thing can fully ruin your playthrough
+		}
+
+		DN_AllowFullModdedWorldgenPostMoonlord: {
+			Label: Allow Full Modded Worldgen (Post Moonlord)
+			Tooltip: This thing can fully ruin your playthrough
+		}
+	}
+}

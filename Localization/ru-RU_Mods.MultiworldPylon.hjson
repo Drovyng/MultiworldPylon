@@ -1,0 +1,97 @@
+Items: {
+	MultiworldPylonItem: {
+		DisplayName: Межмировой столб
+		Tooltip:
+			'''
+			Позволяет путешествовать между мирами, тратя заряд.
+			Вы можете телепортироваться домой с любым зарядом.
+			После завершения игры открывается доступ к секретным сидам.
+			'''
+	}
+}
+
+UI: {
+	ChargeText: Заряд:
+	SelectWorld: Выберите Мир:
+	Home: Дом
+	Normal: Нормалный
+	Purity: Очищенный
+	PurityRNG: Очищенный ранд.
+	Corruption: Порча
+	Crimson: Кримзон
+	RNG: ранд.
+	Locked: ЗАКРЫТО
+	LoadingText: Загрузка мира...
+}
+
+Configs: {
+	MultiworldPylonConfig: {
+		DisplayName: Конфиг
+
+		GenerateDungeon: {
+			Label: Генерация Данжа
+			Tooltip: ""
+		}
+
+		Headers: {
+			PreMoonlordWorlds: Миры (Пре Мунлорд)
+			Stats: Параметры
+			DoNot: ОПАСНО!
+		}
+
+		GenerateJungleTemple: {
+			Label: Генерация Храма Джунглей
+			Tooltip: ""
+		}
+
+		GenerateHives: {
+			Label: Генерация Ульев
+			Tooltip: ""
+		}
+
+		GeneratePyramids: {
+			Label: Генерация Пирамид
+			Tooltip: ""
+		}
+
+		GenerateAltars: {
+			Label: Генерация Алтарей
+			Tooltip: ""
+		}
+
+		GenerateFloatingIslands: {
+			Label: Генерация Парящих Островов
+			Tooltip: ""
+		}
+
+		CountdownInstant: {
+			Label: Мнгновенный Отсчёт
+			Tooltip: ""
+		}
+
+		CountdownTimer: {
+			Label: Время Отсчёта
+			Tooltip: ""
+		}
+
+		CountdownInstantEndGame: {
+			Label: Мнгновенный Отсчёт (Пост Мунлорд)
+			Tooltip: ""
+		}
+
+		CountdownTimerEndGame: {
+			Label: Время Отсчёта (Пост Мунлорд)
+			Tooltip: ""
+		}
+
+		DN_AllowFullModdedWorldgen: {
+			Label: Полностью Разрешить Модифицировать Генерацию (Пре Мунлорд)
+			Tooltip: Это может полностью заруинить ваше прохождение
+		}
+
+		DN_AllowFullModdedWorldgenPostMoonlord: {
+			Label: Полностью Разрешить Модифицировать Генерацию (Пост Мунлорд)
+			Tooltip: Это может полностью заруинить ваше прохождение
+		}
+	}
+}
