@@ -7,6 +7,9 @@
 	<PropertyGroup>
 		
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="changelog.txt" />
+	</ItemGroup>
 
 	<!-- References -->
 	<ItemGroup>
